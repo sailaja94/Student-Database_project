@@ -1,0 +1,125 @@
+body {
+    background-image: url("Capture3S.GIF");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 20%;
+    position: relative;
+}
+
+#context-menu {
+    position: absolute;
+    z-index: 10000;
+    width: 150px;
+    background: #0a0b6e;
+    border-radius: 5px;
+    transform: scale(0);
+}
+
+#context-menu.active {
+    transform: scale(1);
+    transition: transform 300ms ease-in-out;
+}
+
+#context-menu .item {
+    padding: 8px 10px;
+    font-size: 15px;
+    color: #eee;
+    position: relative;
+}
+
+#context-menu .item:hover {
+    background: #ff8882;
+}
+
+#context-menu .item i {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+th {
+    background-color: #ff8882;
+    color: #ffffff;
+    font-size: large;
+    font-weight: 500;
+    border: 1px solid #0a0b6e;
+}
+
+td {
+    color: #247598;
+    font-size: medium;
+    font-weight: 500;
+    border: 1px solid #000000ba;
+}
+
+
+.table-title {
+    padding-bottom: 15px;
+    background: url("cloud-computing-concept-with-flat-icons-symbols_120542-626.GIF");
+    opacity: 0.8;
+    color: #ff9f9b;
+    padding: 25px 30px;
+    margin: -10px -455px 20px;
+    border-radius: 3px 3px 0 0;
+    font-size: 30px;
+    position: relative;
+}
+
+
+.table-title h1 {
+    text-align: center;
+    margin: 10px -10px 0;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#AddN, #AddE, #EditN, #EditE, #EditU, #AddU, #invalid, #invalidE {
+    color: darkred;
+}
+
+/* Modal styles */
+.modal .modal-dialog {
+    max-width: 400px;
+}
+
+.modal .modal-header, .modal .modal-body, .modal .modal-footer {
+    padding: 20px 30px;
+}
+
+.modal .modal-content {
+    border-radius: 3px;
+}
+
+.modal .modal-header {
+    background: #fe857e
+}
+
+.modal .modal-footer {
+    background: #10036e;
+    border-radius: 0 0 3px 3px;
+}
+
+.modal .modal-title {
+    display: inline-block;
+    color: white;
+    font-size: large;
+}
+
+.modal .form-control {
+    border-radius: 2px;
+    box-shadow: none;
+    border-color: blue;
+}
+
+.modal textarea.form-control {
+    resize: vertical;
+}
+
+.modal .btn {
+    border-radius: 2px;
+    min-width: 100px;
+}
+
+.modal form label {
+    font-weight: normal;
+}
