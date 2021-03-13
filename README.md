@@ -1,2 +1,2 @@
-# react_project
-Student Database using reactJS
+# Student database_ project
+Student Database using javascript...
